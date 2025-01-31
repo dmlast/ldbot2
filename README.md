@@ -1,4 +1,4 @@
-# ПОЛНЫЙ КЛОН ДЛЯ http://localhost:8081/docs#/default/predict_api_request_post 
+# ПОЛНЫЙ КЛОН ДЛЯ cr.yandex/crpq5912pgj3m91gsjds/baseline-itmo-chatbot:latest
 Это пример базового приложения, которое реализует API для получения запроса и возврата ответа.
 Приложение написано на FastAPI, разворачивается при помощи docker-compose.
 
