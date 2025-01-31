@@ -1,4 +1,4 @@
-# FastAPI Baseline Service
+# ПОЛНЫЙ КЛОН ДЛЯ http://localhost:8081/docs#/default/predict_api_request_post 
 Это пример базового приложения, которое реализует API для получения запроса и возврата ответа.
 Приложение написано на FastAPI, разворачивается при помощи docker-compose.
 
