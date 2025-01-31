@@ -1,0 +1,24 @@
+2025-01-30 14:07:35 | INFO | Incoming request: GET http://localhost:8080/
+Request body: 
+2025-01-30 14:07:35 | INFO | Request completed: GET http://localhost:8080/
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.004s
+2025-01-30 14:07:35 | INFO | Incoming request: GET http://localhost:8080/favicon.ico
+Request body: 
+2025-01-30 14:07:35 | INFO | Request completed: GET http://localhost:8080/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.002s
+2025-01-30 15:12:33 | INFO | Incoming request: GET http://localhost:8080/
+Request body: 
+2025-01-30 15:12:33 | INFO | Request completed: GET http://localhost:8080/
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.013s
+2025-01-30 17:28:01 | INFO | Incoming request: GET http://localhost:8080/
+Request body: 
+2025-01-30 17:28:01 | INFO | Request completed: GET http://localhost:8080/
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.028s

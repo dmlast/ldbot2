@@ -1,22 +1,11 @@
-version: "3.8"
-
 services:
-  fastapi-service:
+  itmo_chatbot_copy:  # Измененное имя сервиса
+    container_name: itmo_chatbot_copy
     build: .
-    container_name: fastapi-baseline
     ports:
-      - "8080:8080"
-    restart: unless-stopped
-    environment:
-      - TZ=UTC
+      - "8081:8080"  # Пробросим на другой порт, чтобы не конфликтовало с оригиналом
+    env_file:
+      - .env
     volumes:
-      - ./logs:/app/logs
-    # Если нужно GPU
-    # runtime: nvidia
-    # deploy:
-    #   resources:
-    #     reservations:
-    #       devices:
-    #         - driver: nvidia
-    #           count: all
-    #           capabilities: [gpu]
+      - /app
+    restart: always
